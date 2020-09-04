@@ -1,5 +1,5 @@
 ---
 name: Category 1
-image: /uploads/noun_category_1678612.svg
+image: /uploads/category.png
 description: Category 1
 ---

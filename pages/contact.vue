@@ -3,7 +3,7 @@
     <site-hero
       title="Contact Us"
       subtitle="Example Contact Page"
-      image="/media/contact-hero.jpg"
+      image="/uploads/contact-hero.jpg"
     ></site-hero>
     <main-section theme="sidebar-right">
       <template v-slot:default>
@@ -18,8 +18,10 @@
               </p>
               <figure class="image is-1by1 ">
                 <opti-image
-                  :src="require('~/assets/media/contact-person.jpg').src"
-                  :srcset="require('~/assets/media/contact-person.jpg').srcSet"
+                  :src="require('~/assets/uploads/contact-person.jpg').src"
+                  :srcset="
+                    require('~/assets/uploads/contact-person.jpg').srcSet
+                  "
                 />
               </figure>
               <br />
